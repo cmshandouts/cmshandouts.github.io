@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Albert+Sans:ital,wght@0,100;1,100&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Albert+Sans:ital,wght@0,100;1,100&family=Unna:ital,wght@0,400;0,700;1,400;1,700&family=Zen+Maru+Gothic&display=swap');
+:root {
+    --main-bg-color: rgb(0, 0, 0);
+    --dummy-color: rgba(255, 255, 255, 0.59);
+    --head-font: "Abril Fatface", serif;
+    --content-font: "Zen Maru Gothic", serif;
+}
+
+.head-font {
+font-family: var(--head-font);
+color: white;
+}
+.content-font{
+font-family: var(--content-font);
+}
+.max-width-1 {
+max-width: 80vw;
+}
+.max-width-2{
+max-width: 60vw;
+}
+.m-auto {
+    margin: auto;
+}
+.form-input{
+    font-size: 20px;
+    border: 0px;
+    padding: 0 5px;
+    }
+    .btn {
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+    transition: background-color 0.5s, ease-in-out;
+    background-color: white;
+    }
+    .btn:hover{
+        background-color: 	#bfbfbf;
+    }
+
