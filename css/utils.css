@@ -29,17 +29,67 @@ max-width: 60vw;
     border: 0px;
     padding: 0 5px;
     }
-    .btn {
-    border-radius: 50px;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    border: 0px;
-    cursor: pointer;
-    transition: background-color 0.5s, ease-in-out;
-    background-color: white;
-    }
-    .btn:hover{
+    
+    
+    .right button:hover{
+        transition: background-color 1s, ease-in-out;
         background-color: 	#bfbfbf;
     }
+/*IMPORTANT SEARCH ENGINE*/
 
+    .row input {
+        font-family: var(--content-font);
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        width: 600px;
+        height: 45px;
+        color: rgb(159, 159, 159);
+        border-width: 2px;
+        border-color: white;
+    }
+
+    /*.row button {
+        background-color: white;
+        color: black;
+        font-family: var(--content-font);
+        font-size: 20px;
+        text-decoration: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        cursor: pointer;
+        background-color: white;
+    }
+    .row button:hover{
+        transition: background-color 0.3s ease-in-out;
+        background-color: #7b7b7b;
+        color: white;
+    }*/
+
+    .result-box ul{
+        color: rgb(105, 105, 105);
+        font-size: 20px;
+        list-style: none;
+        font-family: var(--content-font);
+    }
+    .result-box ul li{
+        padding: 10px;
+        border-radius: 3px;
+        background-color: white;
+    }
+    .result-box ul li:hover{
+        transition: background-color 0.15s ease-in-out;
+        background-color: rgb(228, 235, 255);
+        cursor: pointer;
+    }
+    .result-box{
+        max-height: 0px;
+    }
+
+    .row a{
+        color: rgb(105, 105, 105);
+        background-color: white;
+        text-decoration: none;
+    }

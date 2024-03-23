@@ -4,7 +4,7 @@
     background-color: var(--main-bg-color);
 }
 .navigation {
-height: 84px;
+height: 89px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -45,18 +45,14 @@ flex-direction: column;
     font-family: var(--content-font);
     font-size: 20px;
     text-decoration: none;
-}
-.right input {
-    font-family: var(--content-font);
-    font-size: 20px;
-    text-align: center;
-    border-radius: 250px;
     width: 300px;
-    height: 30px;
-    color: white;
-    border-width: 2px;
-    border-color: white;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
 }
+
 /*LEFT STUFF*/
 .left ul li{
     list-style: none;
@@ -122,7 +118,8 @@ color: white;
 
 /*FOR ARTICLE PAGE AS A WHOLE AND ARTICLES PRESENT*/
 .home-articles {
-    height: 105vw;
+    /*HEIGHT YAHA SE CHANGE HOgi ok :)*/
+    height: 121vw;
     padding-left: 12px;
 }
 
@@ -174,3 +171,5 @@ color: white;
     color: white;
     cursor: pointer;
 }
+
+/*RESULT BOX*/
